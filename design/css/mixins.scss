@@ -1,0 +1,64 @@
+@mixin fullscreen {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+@mixin horizontalbox {
+	@include box-display;
+	@include box-orient(horizontal);
+}
+
+@mixin allbrowsers($attr,$val) {
+	-moz-#{$attr}: $val;
+	-webkit-#{$attr}: $val;
+	#{$attr}: $val;
+}
+
+@mixin allbrowsersval($attr,$val) {
+	#{$attr}: $val;
+	#{$attr}: -webkit-#{$val};
+	#{$attr}: -moz-#{$val};
+}
+
+@mixin transition-property ($prop) {
+	@include allbrowsers(transition-property,$prop);
+}
+
+@mixin transition-delay ($time) {
+	@include allbrowsers(transition-delay,$time);
+}
+
+@mixin transition-timing-function ($fn) {
+	@include allbrowsers(transition-timing-function,$fn);
+}
+
+@mixin transition-duration ($time) {
+	@include allbrowsers(transition-duration,$time);
+}
+
+@mixin box-orient ($orient) {
+	@include allbrowsers(box-orient,$orient);
+}
+
+@mixin box-flex ($flex) {
+	@include allbrowsers(box-flex,$flex);
+}
+
+@mixin box-display {
+	@include allbrowsersval(display,box);
+}
+
+@mixin border-radius ($radius) {
+	@include allbrowsers(border-radius,$radius);
+}
+
+@mixin linear-gradient ($attr,$deg,$colorfrom,$start,$colorto,$end) {
+	@include allbrowsersval($attr,linear-gradient($deg,$colorfrom $start,$colorto $end));
+}
+
+@mixin calc ($attr,$formula) {
+	@include allbrowsersval($attr,calc(#{$formula}))
+}

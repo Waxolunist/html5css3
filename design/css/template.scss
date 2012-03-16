@@ -1,0 +1,154 @@
+/* ==|== primary styles =====================================================
+Author: Christian Sterzl
+========================================================================== */
+@import "mixins";
+
+$nrOfContentBoxes: 4;
+
+html {
+	overflow: hidden;
+	background-color: #000;
+}
+
+.bgimage {
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-color: white;
+	background-origin: padding-box;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	z-index: -1;
+	@include fullscreen
+}
+
+nav {
+	font-family: 'Rock Salt', sans-serif;
+	font-size: 130%;
+
+	position: absolute;
+	overflow: hidden;
+	z-index: 1;
+	width: 100%;
+	min-width: 768px; 
+
+	@include linear-gradient(background,-45deg,rgba(170,202,238,0.7),0%,rgba(170,202,238,0.7),100%);
+
+	& ul {
+		float: right;
+
+		& li {
+			display: block;
+			float: left;
+			margin-right: 1.5em;
+			margin-top: 1ex;
+			margin-bottom: 1ex;
+
+			& > a, & > a:visited {
+				color: white;
+				text-decoration: none;
+			}
+
+			& > a:hover, &:target > a {
+				color: black;
+			}
+		}
+	}
+}
+
+#search {
+	width: 100px;
+	@include transition-property(width);
+
+	&.searchactive {
+		width: 270px;
+		& form {
+			padding-left: 0.5em;
+		}
+	}
+
+	& a {
+		display: table-cell;
+	}
+
+	& form {
+		padding-left: 1000px;
+		opacity: 0.75;
+		display: table-cell;
+		@include transition-property(padding-left);
+		@include transition-delay(.5s);
+
+		& input[type=submit] {
+			display: none;
+		}
+
+		& input[type=search] {
+			font-size: 75%;
+			padding-left: 0.2em;
+			border: none;
+			background-color: #DEDEDE;
+		}
+	}
+}
+
+#contentwrapper {
+	z-index: 0;
+	overflow: hidden;
+	@include fullscreen
+}
+
+#content {
+  position: static;
+	padding-top: 5em;
+	height: 75%;
+
+	@include horizontalbox;
+	@include calc(width,#{$nrOfContentBoxes} * 100% - #{$nrOfContentBoxes - 1} * 150px);
+	@include transition-property(margin-left);
+
+	@for $i from 0 through ($nrOfContentBoxes - 1) {
+		&.activecontent_#{$i} {
+			@include calc(margin-left,#{$i * -1} * 100% + #{$i * 150px} + 0.5em);	
+		}
+	}
+
+	& div {
+		background-color: white;
+		margin: 0 25px;
+		padding: 50px;	
+		opacity: 0.9;
+		@include box-flex(1);
+		@include border-radius(15px);
+		&:first-child {
+			margin-left: 100px;
+		}
+		&:last-child {
+			margin-right: 100px;
+		}
+	}
+}
+
+.animated {
+	@include transition-duration(1s);
+	@include transition-timing-function(ease);
+	@include transition-delay(0s);
+}
+
+
+/* ==|== media queries ======================================================
+PLACEHOLDER Media Queries for Responsive Design.
+These override the primary ('mobile first') styles
+Modify as content requires.
+========================================================================== */
+
+@media only screen and (min-width: 480px) {
+	/* Style adjustments for viewports 480px and over go here */
+
+}
+
+@media only screen and (min-width: 768px) {
+	/* Style adjustments for viewports 768px and over go here */
+
+}
+
