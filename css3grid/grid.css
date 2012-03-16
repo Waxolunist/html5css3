@@ -1,0 +1,18 @@
+.grid {
+  height: 500px;
+  width: 500px;
+  background-color: #AFAFAF;
+  padding: 5px;
+}
+
+.grid .cell {
+  height: 50px;
+  width: 50px;
+  background-color: #CDCDCD;
+  margin: 5px;
+  float: left;
+}
+
+.grid .cell:nth-child(4n+1) {
+  clear: both;
+}
