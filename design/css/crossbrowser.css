@@ -35,8 +35,8 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 
 body { margin: 0; font-size: 1.1em; line-height: 1.6; }
 
-body, button, input, select, textarea { font-family: 'News Cycle', sans-serif; color: #222; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Ubuntu Mono', sans-serif; }
+body, button, input, select, textarea { font-family: 'Ubuntu Condensed', sans-serif; color: #222; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Ubuntu Condensed', sans-serif; }
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
