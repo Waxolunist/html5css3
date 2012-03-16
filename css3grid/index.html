@@ -11,8 +11,8 @@
       $(".grid > div > div")
         .click(function() {
           $(".grid div").removeClass("active");
-          $(this).addClass("active");
           $(this).parent().addClass("active");
+          $(".grid > div > div:nth-of-type(" + ($(this).index()+1) + ")").addClass("active");
         });
     });
     </script>

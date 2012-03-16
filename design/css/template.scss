@@ -129,10 +129,10 @@ nav {
 	}
 }
 
-.animated {
+.grid div {
 	@include transition-duration(1s);
 	@include transition-timing-function(ease);
-	@include transition-delay(0s);
+	@include transition-delay(0.5s);
 }
 
 

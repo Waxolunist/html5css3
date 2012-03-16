@@ -8,26 +8,41 @@ Author: Christian Sterzl
   -moz-box-orient: vertical;
   -webkit-box-orient: vertical;
   box-orient: vertical;
-  width: 600px;
-  height: 600px;
-  padding: 5px; }
+  width: 440px;
+  height: 440px;
+  border: 5px solid black; }
   .grid > div {
     display: box;
     display: -webkit-box;
     display: -moz-box;
-    -moz-box-flex: 2;
-    -webkit-box-flex: 2;
-    box-flex: 2; }
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    background-color: black;
+    min-height: 50px; }
     .grid > div.active {
-      height: 165px; }
-      .grid > div.active > div {
-        background-color: green; }
+      min-height: 100px; }
+      .grid > div.active > div.active {
+        background-color: yellow; }
     .grid > div > div {
-      -moz-box-flex: 2;
-      -webkit-box-flex: 2;
-      box-flex: 2;
       background-color: blue;
-      border: 5px solid #000; }
+      -moz-box-flex: 1;
+      -webkit-box-flex: 1;
+      box-flex: 1;
+      min-width: 50px;
+      margin: 5px; }
       .grid > div > div.active {
-        width: 165px;
-        background-color: red; }
+        min-width: 100px; }
+  .grid div {
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -moz-transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -moz-transition-delay: 0s;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -moz-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all; }

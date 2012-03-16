@@ -5,37 +5,46 @@ Author: Christian Sterzl
 
 $nrOfBoxesPerRow: 4;
 $nrOfBoxesPerColumn: 4;
-$boxSize: 150;
-$multiplicator: 1.1;
+$boxSize: 100;
+$multiplicator: 0.5;
 
 .grid {
   @include box-display;
   @include box-orient(vertical);
-  width: #{$boxSize * $nrOfBoxesPerRow}px;
-  height: #{$boxSize * $nrOfBoxesPerColumn}px;
-  padding: 5px;
+  width: #{($boxSize + 10) * $nrOfBoxesPerRow}px;
+  height: #{($boxSize + 10) * $nrOfBoxesPerColumn}px;
+  border: 5px solid black;
 
-  & > div {
+  & > div { //rows
     @include box-display;
-    @include box-flex(2);
+    @include box-flex(1);
+    background-color: black;
+    min-height: #{$boxSize * $multiplicator}px;
 
-    &.active {
-      height: #{$boxSize * $multiplicator}px;
+    &.active { //active row
+      min-height: #{$boxSize}px;
 
-      & > div {
-        background-color: green;
+      & > div.active { //active cell in active row
+        background-color: yellow;
       }
     }
 
-    & > div {
-      @include box-flex(2);
+    & > div { //every cell
       background-color: blue;
-      border: 5px solid #000;
+      @include box-flex(1);
+      min-width: #{$boxSize * $multiplicator}px;
+      margin: 5px;
 
-      &.active {
-        width: #{$boxSize * $multiplicator}px;
-        background-color: red;
+      &.active { //active cell in every row, aka column
+        min-width: #{$boxSize}px;
       }
     }
+  }
+
+  & div { //every div - rows and cells
+      @include transition-duration(1s);
+      @include transition-timing-function(ease);
+      @include transition-delay(0s);
+      @include transition-property(all);
   }
 }
