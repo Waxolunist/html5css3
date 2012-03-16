@@ -1,0 +1,41 @@
+/* ==|== primary styles =====================================================
+Author: Christian Sterzl
+========================================================================== */
+@import "../../scss/mixins";
+
+$nrOfBoxesPerRow: 4;
+$nrOfBoxesPerColumn: 4;
+$boxSize: 150;
+$multiplicator: 1.1;
+
+.grid {
+  @include box-display;
+  @include box-orient(vertical);
+  width: #{$boxSize * $nrOfBoxesPerRow}px;
+  height: #{$boxSize * $nrOfBoxesPerColumn}px;
+  padding: 5px;
+
+  & > div {
+    @include box-display;
+    @include box-flex(2);
+
+    &.active {
+      height: #{$boxSize * $multiplicator}px;
+
+      & > div {
+        background-color: green;
+      }
+    }
+
+    & > div {
+      @include box-flex(2);
+      background-color: blue;
+      border: 5px solid #000;
+
+      &.active {
+        width: #{$boxSize * $multiplicator}px;
+        background-color: red;
+      }
+    }
+  }
+}

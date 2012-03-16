@@ -1,0 +1,33 @@
+/* ==|== primary styles =====================================================
+Author: Christian Sterzl
+========================================================================== */
+.grid {
+  display: box;
+  display: -webkit-box;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  width: 600px;
+  height: 600px;
+  padding: 5px; }
+  .grid > div {
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    -moz-box-flex: 2;
+    -webkit-box-flex: 2;
+    box-flex: 2; }
+    .grid > div.active {
+      height: 165px; }
+      .grid > div.active > div {
+        background-color: green; }
+    .grid > div > div {
+      -moz-box-flex: 2;
+      -webkit-box-flex: 2;
+      box-flex: 2;
+      background-color: blue;
+      border: 5px solid #000; }
+      .grid > div > div.active {
+        width: 165px;
+        background-color: red; }

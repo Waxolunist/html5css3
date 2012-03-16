@@ -51,6 +51,10 @@
 	@include allbrowsersval(display,box);
 }
 
+@mixin box-flex ($flex) {
+	@include allbrowsers(box-flex,$flex);
+}
+
 @mixin border-radius ($radius) {
 	@include allbrowsers(border-radius,$radius);
 }
