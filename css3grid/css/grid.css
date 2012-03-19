@@ -1,6 +1,10 @@
 /* ==|== primary styles =====================================================
 Author: Christian Sterzl
 ========================================================================== */
+.grid_wrapper {
+  width: 60%;
+  overflow: auto; }
+
 .grid {
   display: box;
   display: -webkit-box;
@@ -8,25 +12,27 @@ Author: Christian Sterzl
   -moz-box-orient: vertical;
   -webkit-box-orient: vertical;
   box-orient: vertical;
-  width: 624px;
-  height: 416px;
-  border: 2px solid black; }
+  background-color: black;
+  width: 1536px;
+  height: 512px;
+  border: 2px solid black;
+  overflow: hidden; }
   .grid > div {
     display: box;
     display: -webkit-box;
     display: -moz-box;
     background-color: black;
-    min-height: 1px; }
+    min-height: 15px; }
     .grid > div.active {
-      min-height: 197px; }
+      min-height: 240px; }
       .grid > div.active > div.active {
         background-color: yellow; }
     .grid > div > div {
       background-color: blue;
-      min-width: 1px;
+      min-width: 15px;
       margin: 2px; }
       .grid > div > div.active {
-        min-width: 197px; }
+        min-width: 240px; }
   .grid div {
     -moz-transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;

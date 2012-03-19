@@ -1,21 +1,44 @@
 <!doctype html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/grid.css">
+    <!--[if IE]>
+      <link rel="stylesheet" href="css/grid_ie.css">
+    <![endif]-->
+    <link rel="stylesheet" href="css/lionbars.css">
 
     <script src="js/jquery-1.7.1.js" type="text/javascript"></script>
+    <script src="js/jquery.lionbars.0.3.min.js" type="text/javascript"></script>
+    <script src="js/modernizr.custom.js" type="text/javascript"></script>
+    <script src="js/flexgrid.js" type="text/javascript"></script>
     <script type="text/javascript">
+      Modernizr.addTest("flexboxlegacy",function(){
+        return Modernizr.testAllProps('boxDirection');
+      });
+    </script>
+    <script type="text/javascript">
+    Modernizr.load({
+      test: Modernizr.flexboxlegacy,
+      yep: 'css/grid.css',
+      nope: ['js/flexie.js']
+    });
     $(document).ready(function() {
-      console.log("Document ready");
 
+      console.log("Document ready");
+      $(".grid").flexgrid();
+      /*
       $(".grid > div > div")
         .click(function() {
+          console.log("Click");
           $(".grid div").removeClass("active");
           $(this).parent().addClass("active");
           $(".grid > div > div:nth-of-type(" + ($(this).index()+1) + ")").addClass("active");
         });
+      */
+      //$(".grid_wrapper").lionbars();
     });
     </script>
+
+    <title>Flexible CSS3 Grid</title>
   </head>
   <body>
 
@@ -27,8 +50,18 @@
       <div></div>
       <div></div>
       <div></div>
-    </div>
-    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
       <div></div>
       <div></div>
       <div></div>
@@ -43,8 +76,174 @@
       <div></div>
       <div></div>
       <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
     <div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
       <div></div>
       <div></div>
       <div></div>

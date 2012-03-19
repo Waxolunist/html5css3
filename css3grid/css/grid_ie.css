@@ -1,0 +1,33 @@
+/* ==|== primary styles =====================================================
+Author: Christian Sterzl
+========================================================================== */
+.grid_wrapper {
+  width: 60%;
+  overflow: auto; }
+
+.grid {
+  display: block;
+  background-color: black;
+  width: 1536px;
+  height: 512px;
+  border: 2px solid black;
+  overflow: hidden; }
+  .grid > div {
+    background-color: black;
+    height: 60px;
+    width: 1536px;
+    overflow: hidden; }
+    .grid > div.active {
+      height: 240px; }
+      .grid > div.active > div.active {
+        background-color: yellow; }
+    .grid > div > div {
+      background-color: blue;
+      height: 100%;
+      width: 60px;
+      margin: 2px;
+      float: left; }
+      .grid > div > div.inactive {
+        width: 56.348px; }
+      .grid > div > div.active {
+        width: 240px; }

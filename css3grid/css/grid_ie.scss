@@ -20,20 +20,26 @@ $scrollbarSize: 7;
 } 
 
 .grid {
-  @include box-display;
-  @include box-orient(vertical);
+  display: block;
+  //@include box-display;
+  //@include box-orient(vertical);
   background-color: #{$borderColor};
   width: #{($boxSize + 2 * $borderSize) * $columns}px;
   height: #{($boxSize + 2 * $borderSize) * $rows}px;
   border: #{$borderSize}px solid #{$borderColor};
+  overflow: hidden;
 
   & > div { //rows
-    @include box-display;
+    //@include box-display;
     background-color: #{$borderColor};
-    min-height: #{$boxSize * 1 / $multiplicator}px;
+    height: #{$boxSize}px;
+    width: #{($boxSize + 2 * $borderSize) * $columns}px;
+    overflow: hidden;
+    //max-height: #{$boxSize * 1 / $multiplicator}px;
 
     &.active { //active row
-      min-height: #{$boxSize * $multiplicator}px;
+      height: #{$boxSize * $multiplicator}px;
+      //max-height: #{$boxSize * $multiplicator}px;
 
       & > div.active { //active cell in active row
         background-color: #{$activeColor};
@@ -42,20 +48,23 @@ $scrollbarSize: 7;
 
     & > div { //every cell
       background-color: #{$inactiveColor};
-      min-width: #{$boxSize * 1 / $multiplicator}px;
+      height: 100%;
+      width: #{$boxSize}px;
       margin: #{$borderSize}px;
+      float: left;
+
+      &.inactive {
+        width: #{((($boxSize + 2 * $borderSize) * $columns) - ($boxSize * $multiplicator))/($columns - 1)}px;
+      }
 
       &.active { //active cell in every row, aka column
-        min-width: #{$boxSize * $multiplicator}px;
+        width: #{$boxSize * $multiplicator}px;
+        //max-width: #{$boxSize * $multiplicator}px;
       }
     }
   }
 
   & div { //every div - rows and cells
-      @include transition-duration(#{$transitionDuration});
-      @include transition-timing-function(ease);
-      @include transition-delay(0s);
-      @include transition-property("min-height,min-width,background-color");
-      @include box-flex(1);
+      //@include box-flex(1);
   }
 }
