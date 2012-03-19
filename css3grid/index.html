@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <link rel="stylesheet" href="css/grid.css">
     <!--[if IE]>
       <link rel="stylesheet" href="css/grid_ie.css">
     <![endif]-->
@@ -18,7 +19,6 @@
     <script type="text/javascript">
     Modernizr.load({
       test: Modernizr.flexboxlegacy,
-      yep: 'css/grid.css',
       nope: ['js/flexie.js']
     });
     $(document).ready(function() {
@@ -34,7 +34,7 @@
           $(".grid > div > div:nth-of-type(" + ($(this).index()+1) + ")").addClass("active");
         });
       */
-      //$(".grid_wrapper").lionbars();
+      $(".grid_wrapper").lionbars();
     });
     </script>
 
@@ -42,6 +42,7 @@
   </head>
   <body>
 
+    <div class="grid_wrapper">
     <div class="grid">
     <div>
       <div></div>
@@ -250,6 +251,7 @@
       <div></div>
       <div></div>
       <div></div>
+    </div>
     </div>
     </div>
   </body>
