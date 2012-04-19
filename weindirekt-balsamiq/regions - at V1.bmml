@@ -1,0 +1,213 @@
+<mockup version="1.0" skin="sketch" measuredW="1725" measuredH="892" mockupW="1592" mockupH="892">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="137" y="138" w="1569" h="717" measuredW="512" measuredH="384" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/Weinreben.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::VRule" x="431" y="63" w="-1" h="829" measuredW="5" measuredH="100" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <markup>true</markup>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::VRule" x="1409" y="61" w="-1" h="831" measuredW="5" measuredH="100" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <markup>true</markup>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Canvas" x="444" y="251" w="746" h="628" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>16770457</color>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::StickyNote" x="560" y="665" w="214" h="123" measuredW="109" measuredH="123" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Zweispaltiges%20Layout%0AVariable%20L%E4nge%2C%20%FCber%20Y-Achse%20hinaus%2C%20Minimum%20Fullscreen</text>
+      </controlProperties>
+    </control>
+    <control controlID="21" controlTypeID="com.balsamiq.mockups::Canvas" x="1197" y="251" w="200" h="150" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>16770457</color>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Canvas" x="1197" y="403" w="200" h="150" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>16770457</color>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Canvas" x="1198" y="558" w="200" h="150" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>16770457</color>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::StickyNote" x="1214" y="313" w="167" h="123" measuredW="109" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Teaser%20f%FCr%20Aktionen%2C%20Werbung%2C%20News%2C%20Veranstaltungen%2C%20etc.%0ANicht%20mehr%20als%203%20Teaser</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::LinkBar" x="1295" y="142" w="-1" h="-1" measuredW="105" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sprache%2C%20Login</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Image" x="455" y="163" w="69" h="68" measuredW="418" measuredH="480" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>welcome%20V4%26bm%3Bwelcome%20V4.bmml%26bm%3Bwelcome%20V4.bmml%26bm%3Bwelcome%20V4.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22322%2C163%2C391%2C231%22%20href%3D%22welcome%2520V4.bmml%22%20alt%3D%22welcome%20V4%22%20id%3D%2239%22/%3E</map>
+        <src>./assets/Weintrauben.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Link" x="608" y="163" w="-1" h="-1" measuredW="115" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>welcome%20V4%26bm%3Bwelcome%20V4.bmml%26bm%3Bwelcome%20V4.bmml%26bm%3Bwelcome%20V4.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22475%2C163%2C590%2C184%22%20href%3D%22welcome%2520V4.bmml%22%20alt%3D%22welcome%20V4%22%20id%3D%2242%22/%3E</map>
+        <text>Das%20ist%20Wein-Direkt</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Link" x="608" y="185" w="-1" h="-1" measuredW="58" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>news%20V1%26bm%3Bnews%20V1.bmml%26bm%3Bnews%20V1.bmml%26bm%3Bnews%20V1.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22475%2C185%2C533%2C206%22%20href%3D%22news%2520V1.bmml%22%20alt%3D%22news%20V1%22%20id%3D%2243%22/%3E</map>
+        <text>Aktuelles</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Link" x="608" y="210" w="-1" h="-1" measuredW="98" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>regions%20V1%26bm%3Bregions%20V1.bmml%26bm%3Bregions%20V1.bmml%26bm%3Bregions%20V1.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22475%2C210%2C573%2C231%22%20href%3D%22regions%2520V1.bmml%22%20alt%3D%22regions%20V1%22%20id%3D%2244%22/%3E</map>
+        <text>Weinbaugebiete</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Link" x="778" y="162" w="-1" h="-1" measuredW="46" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Winzer</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Link" x="778" y="184" w="-1" h="-1" measuredW="42" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Weine</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Link" x="778" y="206" w="-1" h="-1" measuredW="34" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Shop</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Paragraph" x="1243" y="214" w="189" h="27" measuredW="200" measuredH="80" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Im%20Einkaufskorb%3A%200%20Waren</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Paragraph" x="948" y="170" w="196" h="28" measuredW="200" measuredH="80" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suche%20nach%20Weinen</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Canvas" x="926" y="168" w="199" h="30" measuredW="100" measuredH="70" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>40463</color>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::SearchBox" x="926" y="203" w="199" h="-1" measuredW="120" measuredH="25" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suche</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="133" y="69" w="1592" h="810" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Wein%20Direkt%0Ahttp%3A//wein-direkt.at</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::HCurly" x="436" y="0" w="974" h="63" measuredW="200" measuredH="80" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>bottom</direction>
+        <text>Contentsize%20%281024%20x%20768%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::HRule" x="444" y="158" w="951" h="-1" measuredW="100" measuredH="5" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <markup>true</markup>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::HRule" x="444" y="231" w="951" h="-1" measuredW="100" measuredH="5" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.25</backgroundAlpha>
+        <markup>true</markup>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Canvas" x="135" y="853" w="1588" h="26" measuredW="100" measuredH="70" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="488" y="266" w="-1" h="-1" measuredW="144" measuredH="24" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%DCbersicht%2C%20%D6sterreich</text>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::StickyNote" x="591" y="272" w="157" h="87" measuredW="109" measuredH="123" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Navigationshistorie%20und%20Hierarchie%20vermischt</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="__group__" x="488" y="313" w="103" h="71" measuredW="103" measuredH="71" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>regions%20-%20at%20-%20bgld%20V1%26bm%3Bregions%20-%20at%20-%20bgld%20V1.bmml%26bm%3Bregions%20-%20at%20-%20bgld%20V1.bmml%26bm%3Bregions%20-%20at%20-%20bgld%20V1.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22355%2C313%2C458%2C384%22%20href%3D%22regions%2520-%2520at%2520-%2520bgld%2520V1.bmml%22%20alt%3D%22regions%20-%20at%20-%20bgld%20V1%22%20id%3D%2280%22/%3E</map>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Link" x="0" y="0" w="-1" h="-1" measuredW="68" measuredH="21" zOrder="0" locked="false" isInGroup="80">
+          <controlProperties>
+            <text>Burgenland</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Link" x="0" y="26" w="-1" h="-1" measuredW="103" measuredH="21" zOrder="1" locked="false" isInGroup="80">
+          <controlProperties>
+            <text>Nieder%F6sterreich</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Link" x="0" y="50" w="-1" h="-1" measuredW="71" measuredH="21" zOrder="2" locked="false" isInGroup="80">
+          <controlProperties>
+            <text>Steiermark</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Paragraph" x="488" y="417" w="675" h="462" measuredW="200" measuredH="80" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Etwas%20Text%20%FCber%20den%20%F6sterreichischen%20Weinanbau.%0A%20%0ALorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Nam%20vel%20porttitor%20dolor.%20Ut%20id%20risus%20ut%20eros%20scelerisque%20porttitor.%20Sed%20tempus%2C%20enim%20non%20convallis%20consectetur%2C%20dui%20mi%20sollicitudin%20purus%2C%20in%20sodales%20magna%20lorem%20rutrum%20ipsum.%20Curabitur%20porta%20elementum%20enim.%20Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Cum%20sociis%20natoque%20penatibus%20et%20magnis%20dis%20parturient%20montes%2C%20nascetur%20ridiculus%20mus.%20Nunc%20nec%20odio%20dolor.%20Maecenas%20sed%20velit%20massa%2C%20in%20fermentum%20ante.%20Mauris%20sit%20amet%20ligula%20ligula.%0A%20%0ANunc%20ultrices%20ipsum%20in%20purus%20ultrices%20eget%20aliquet%20justo%20molestie.%20Duis%20non%20commodo%20risus.%20Integer%20interdum%20ligula%20a%20nunc%20tincidunt%20eu%20luctus%20dui%20commodo.%20Aenean%20tristique%20quam%20id%20neque%20eleifend%20at%20vehicula%20urna%20porttitor.%20Pellentesque%20habitant%20morbi%20tristique%20senectus%20et%20netus%20et%20malesuada%20fames%20ac%20turpis%20egestas.%20Curabitur%20feugiat%20ultricies%20ligula%20eu%20congue.%20Etiam%20at%20consectetur%20lectus.%20Cras%20a%20ante%20est.%20Cum%20sociis%20natoque%20penatibus%20et%20magnis%20dis%20parturient%20montes%2C%20nascetur%20ridiculus%20mus.%20Donec%20quis%20ipsum%20tellus.%20In%20pretium%20tempor%20augue%2C%20et%20porttitor%20dolor%20semper%20vel.%20Vestibulum%20varius%20congue%20pretium.%20Maecenas%20blandit%20dolor%20ante%2C%20nec%20malesuada%20enim.%0A%20%0APellentesque%20lorem%20eros%2C%20dignissim%20vitae%20pretium%20at%2C%20aliquam%20sit%20amet%20dolor.%20Ut%20sagittis%2C%20tellus%20eget%20feugiat%20facilisis%2C%20diam%20dolor%20viverra%20nisi%2C%20eleifend%20luctus%20orci%20dolor%20in%20mauris.%20Class%20aptent%20taciti%20sociosqu%20ad%20litora%20torquent%20per%20conubia%20nostra%2C%20per%20inceptos%20himenaeos.%20Aliquam%20dictum%2C%20tortor%20sagittis%20bibendum%20adipiscing%2C%20risus%20urna%20fermentum%20nunc%2C%20vitae%20consectetur%20lorem%20nunc%20vitae%20sem.%20Etiam%20eget%20magna%20eu%20ante%20placerat%20adipiscing%20et%20et%20nulla.%20Duis%20vulputate%20mattis%20tortor%20sit%20amet%20condimentum.%20Sed%20in%20augue%20augue%2C%20ut%20pulvinar%20sem.%20Integer%20vel%20risus%20vitae%20mauris%20porttitor%20tempus.%20Phasellus%20nec%20mi%20leo%2C%20sit%20amet%20porta%20nibh.%0A%20%0ADonec%20id%20erat%20in%20dolor%20consectetur%20ultrices.%20Ut%20dui%20lacus%2C%20cursus%20in%20cursus%20molestie%2C%20tempus%20at%20ipsum.%20Cum%20sociis%20natoque%20penatibus%20et%20magnis%20dis%20parturient%20montes%2C%20nascetur%20ridiculus%20mus.%20Suspendisse%20potenti.%20Praesent%20vel%20leo%20dui.%20Maecenas%20risus%20magna%2C%20condimentum%20et%20commodo%20in%2C%20molestie%20vel%20eros.%20Aliquam%20erat%20volutpat.%20In%20ut%20augue%20eget%20nisi%20iaculis%20mollis.%20Vestibulum%20id%20aliquet%20orci.%20Aliquam%20leo%20est%2C%20varius%20vitae%20feugiat%20ut%2C%20mattis%20euismod%20nisl.%20Nunc%20suscipit%20velit%20sed%20ipsum%20tincidunt%20euismod.%20Etiam%20id%20condimentum%20nisi.%20Curabitur%20ante%20arcu%2C%20viverra%20at%20pretium%20vitae%2C%20congue%20a%20ipsum.%20Aliquam%20ornare%20semper%20velit%20ac%20pretium.%20Sed%20fermentum%20mauris%20et%20ligula%20sodales%20dignissim%20imperdiet%20nunc%20dictum.%0A%20%0ASuspendisse%20metus%20lorem%2C%20pellentesque%20pulvinar%20consectetur%20quis%2C%20vestibulum%20nec%20metus.%20Sed%20a%20lectus%20porttitor%20diam%20malesuada%20condimentum%20non%20vel%20neque.%20Maecenas%20eget%20nisi%20at%20lacus%20aliquam%20luctus.%20Quisque%20suscipit%20lacinia%20hendrerit.%20Morbi%20nec%20quam%20eu%20risus%20condimentum%20posuere%20sed%20a%20mi.%20Aliquam%20congue%20erat%20blandit%20felis%20aliquam%20et%20ornare%20erat%20egestas.%20Nullam%20a%20ipsum%20non%20nisl%20vehicula%20fringilla.%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Paragraph" x="1214" y="266" w="166" h="119" measuredW="200" measuredH="80" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Finden%20Sie%20%F6sterreichischen%20Wein%20hier.%0A%5BLink%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Image" x="488" y="546" w="109" h="100" measuredW="697" measuredH="255" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/neusiedlersee.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::Image" x="1016" y="657" w="143" h="103" measuredW="692" measuredH="255" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/sonnenblumen.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
