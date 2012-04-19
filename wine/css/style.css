@@ -1,0 +1,139 @@
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+html{
+	padding-top:10px;
+}
+body.wrapper{
+	padding:30px 10px 0;
+	background:none;
+}
+
+
+
+
+
+/*------------------------------------*\
+	HEADER
+\*------------------------------------*/
+#header {
+  margin-bottom: 1.5em;
+}
+#logo,
+#logo img{
+	width:230px; /* Width of your logo (ideally a round grid-number) */
+	height:80px; /* Height of your logo */
+}
+#logo{
+	background:url(../img/logo.jpg);
+}
+nav ul {
+  float: left;
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+
+.searchheader {
+  background-color: green;
+  margin-bottom: 0.5em;
+}
+
+#header input[type=search] {
+  width: 100%;
+}
+
+
+
+/*------------------------------------*\
+	TYPE
+\*------------------------------------*/
+h2 small{
+	color:#999;
+}
+pre{
+	background:#ffc;
+	padding:10px;
+}
+pre mark{
+	border-bottom:2px solid rgba(0,0,0,0.25);
+	font-weight:bold;
+}
+a{
+	color:#4a8ec2;
+	font-weight:bold;
+}
+
+
+
+
+
+/*------------------------------------*\
+	FOOTER
+\*------------------------------------*/
+#footer{
+	color:#fff;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+	padding:20px 10px 10px;
+	margin:0 -10px;
+}
+#footer p{
+	margin:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+	MISC
+\*------------------------------------*/
+hr{
+	border:none;
+	padding:0;
+	clear:both;
+	width:100%;
+	background:#ccc;
+	height:1px;
+}
+::selection			{ background:#4a8ec2; color:#fff; }
+::-moz-selection	{ background:#4a8ec2; color:#fff; }
+
+
+
+
+
+/*------------------------------------*\
+	NARROW
+\*------------------------------------*/
+@media (min-width: 721px) and (max-width: 960px){
+}
+
+
+
+
+
+/*------------------------------------*\
+	MOBILE
+\*------------------------------------*/
+@media (max-width: 720px){
+.wrapper{
+	padding:10px 10px 0;
+}
+}
+
+
+
+
+
+/*------------------------------------*\
+	PRINT
+\*------------------------------------*/
+@media print{
+#logo:after,
+#logo::after{
+	content:"";
+}
+.grid{
+	text-align:left!important;
+}
+}
