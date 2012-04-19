@@ -1,139 +1,132 @@
 /*------------------------------------*\
+	GRID
+\*------------------------------------*/
+.grids {
+  clear: both;
+  max-width: 960px;
+  margin: 0 0 0 -2.083%;
+  list-style: none;
+  /* So we can make grids out of lists */ }
+  .grids [class^="grid-"] {
+    float: left;
+    margin: 0 0 0 2.083%; }
+    .grids [class^="grid-"] .grids {
+      width: auto;
+      margin: 0 -2.083%; }
+  .grids .grid-1 {
+    width: 4.167%; }
+  .grids .grid-2 {
+    width: 10.417%; }
+  .grids .grid-3 {
+    width: 16.667%; }
+  .grids .grid-4 {
+    width: 22.917%; }
+  .grids .grid-5 {
+    width: 29.167%; }
+  .grids .grid-6 {
+    width: 35.417%; }
+  .grids .grid-7 {
+    width: 41.667%; }
+  .grids .grid-8 {
+    width: 47.917%; }
+  .grids .grid-9 {
+    width: 54.167%; }
+  .grids .grid-10 {
+    width: 60.417%; }
+  .grids .grid-11 {
+    width: 66.667%; }
+  .grids .grid-12 {
+    width: 72.917%; }
+  .grids .grid-13 {
+    width: 79.167%; }
+  .grids .grid-14 {
+    width: 85.417%; }
+  .grids .grid-15 {
+    width: 91.667%; }
+  .grids .grid-16 {
+    width: 97.917%;
+    margin: 0; }
+
+/*------------------------------------*\
 	MAIN
 \*------------------------------------*/
-html{
-	padding-top:10px;
-}
-body.wrapper{
-	padding:30px 10px 0;
-	background:none;
-}
+body.wrapper {
+  padding: 30px 10px 0;
+  background: none;
+  max-width: 940px;
+  margin: 0 auto; }
 
-
-
-
+section.maincontent article,
+section.teaser article {
+  background-color: rgba(255, 234, 146, 0.5);
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em; }
 
 /*------------------------------------*\
 	HEADER
 \*------------------------------------*/
 #header {
-  margin-bottom: 1.5em;
-}
-#logo,
-#logo img{
-	width:230px; /* Width of your logo (ideally a round grid-number) */
-	height:80px; /* Height of your logo */
-}
-#logo{
-	background:url(../img/logo.jpg);
-}
-nav ul {
-  float: left;
-  list-style: none;
-  margin-bottom: 0.5em;
-}
-
-.searchheader {
-  background-color: green;
-  margin-bottom: 0.5em;
-}
-
-#header input[type=search] {
-  width: 100%;
-}
-
-
+  margin-bottom: 1.5em; }
+  #header #logo {
+    width: 230px;
+    height: 80px;
+    background: url(../img/logo.jpg); }
+  #header input[type=search] {
+    width: 100%; }
+  #header .searchheader {
+    background-color: #bad4a1;
+    margin-bottom: 0.5em; }
+  #header nav ul {
+    float: left;
+    list-style: none;
+    margin-bottom: 0.5em; }
 
 /*------------------------------------*\
 	TYPE
 \*------------------------------------*/
-h2 small{
-	color:#999;
-}
-pre{
-	background:#ffc;
-	padding:10px;
-}
-pre mark{
-	border-bottom:2px solid rgba(0,0,0,0.25);
-	font-weight:bold;
-}
-a{
-	color:#4a8ec2;
-	font-weight:bold;
-}
-
-
-
-
+a {
+  color: black;
+  font-weight: bold; }
 
 /*------------------------------------*\
 	FOOTER
 \*------------------------------------*/
-#footer{
-	color:#fff;
-	text-shadow:1px 1px 1px rgba(0,0,0,0.5);
-	padding:20px 10px 10px;
-	margin:0 -10px;
-}
-#footer p{
-	margin:0;
-}
-
-
-
-
+#footer {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  padding: 20px 10px 10px;
+  margin: 0 -10px;
+  border-top: 1px solid gray; }
+  #footer p {
+    margin: 0; }
 
 /*------------------------------------*\
 	MISC
 \*------------------------------------*/
-hr{
-	border:none;
-	padding:0;
-	clear:both;
-	width:100%;
-	background:#ccc;
-	height:1px;
-}
-::selection			{ background:#4a8ec2; color:#fff; }
-::-moz-selection	{ background:#4a8ec2; color:#fff; }
-
-
-
-
+hr {
+  border: none;
+  padding: 0;
+  clear: both;
+  width: 100%;
+  background: #ccc;
+  height: 1px; }
 
 /*------------------------------------*\
 	NARROW
 \*------------------------------------*/
-@media (min-width: 721px) and (max-width: 960px){
-}
-
-
-
-
-
 /*------------------------------------*\
 	MOBILE
 \*------------------------------------*/
-@media (max-width: 720px){
-.wrapper{
-	padding:10px 10px 0;
-}
-}
-
-
-
-
-
+@media (max-width: 720px) {
+  body.wrapper {
+    padding: 10px 10px 0; } }
 /*------------------------------------*\
 	PRINT
 \*------------------------------------*/
-@media print{
-#logo:after,
-#logo::after{
-	content:"";
-}
-.grid{
-	text-align:left!important;
-}
-}
+@media print {
+  .grid {
+    text-align: left!important; } }

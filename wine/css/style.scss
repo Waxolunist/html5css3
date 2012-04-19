@@ -1,0 +1,161 @@
+@import "../../scss/mixins";
+
+$color_green: #BAD4A1;
+$color_yellow: #FFEA92;
+$columns: 16;
+
+/*------------------------------------*\
+	GRID
+\*------------------------------------*/
+
+.grids{
+	clear:both;
+	max-width:960px;
+	margin:0 0 0 -2.083%;
+	list-style:none; /* So we can make grids out of lists */
+
+  [class^="grid-"]{
+    float:left;
+    margin:0 0 0 2.083%;
+
+    .grids{
+	    width:auto;
+	    margin:0 -2.083%;
+    }
+
+  }
+
+  @for $i from 1 through ($columns) {
+      .grid-#{$i} {
+        width: 100 / $columns * $i - 2.083%;
+        @if $i == $columns {margin: 0;}
+      }
+  }
+}
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+body.wrapper{
+	padding:30px 10px 0;
+	background:none;
+  max-width:940px;
+	margin:0 auto;
+}
+
+section.maincontent,
+section.teaser {
+  article {
+    background-color: rgba($color_yellow, 0.5);
+    @include border-radius(15px);
+    margin: {
+      top: 1em;
+      bottom: 1em;
+    } 
+    padding: 1em;
+  }
+}
+
+/*------------------------------------*\
+	HEADER
+\*------------------------------------*/
+#header {
+ margin-bottom: 1.5em;
+
+  #logo {
+    width:230px;
+    height:80px;
+    background:url(../img/logo.jpg);
+  }
+
+  input[type=search] {
+    width: 100%;
+  }
+
+  .searchheader {
+    background-color: $color_green;
+    margin-bottom: 0.5em;
+  }
+
+  nav ul {
+    float: left;
+    list-style: none;
+    margin-bottom: 0.5em;
+  }
+
+}
+
+
+/*------------------------------------*\
+	TYPE
+\*------------------------------------*/
+a{
+	color:black;
+	font-weight:bold;
+}
+
+
+
+
+
+/*------------------------------------*\
+	FOOTER
+\*------------------------------------*/
+#footer{
+	color:#fff;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+	padding:20px 10px 10px;
+	margin:0 -10px;
+  border-top: 1px solid gray;
+
+  p {
+    margin: 0;
+  }
+}
+
+
+
+
+/*------------------------------------*\
+	MISC
+\*------------------------------------*/
+hr{
+	border:none;
+	padding:0;
+	clear:both;
+	width:100%;
+	background:#ccc;
+	height:1px;
+}
+
+/*------------------------------------*\
+	NARROW
+\*------------------------------------*/
+@media (min-width: 721px) and (max-width: 960px){
+}
+
+
+
+
+
+/*------------------------------------*\
+	MOBILE
+\*------------------------------------*/
+@media (max-width: 720px){
+body.wrapper{
+	padding:10px 10px 0;
+}
+}
+
+
+
+
+
+/*------------------------------------*\
+	PRINT
+\*------------------------------------*/
+@media print{
+.grid{
+	text-align:left!important;
+}
+}
